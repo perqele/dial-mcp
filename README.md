@@ -112,14 +112,18 @@ curl -X POST https://aloha-dial-api.onrender.com/v1/numbers \
 
 ## Pricing
 
-| Plan | Price | Numbers | Call minutes | Texts |
+| Plan | Price | Numbers | AI voice call minutes | Incoming texts |
 | --- | --- | --- | --- | --- |
 | Free | $5 credit, no card | 1 | about 33 (from the credit) | inbound codes included |
 | Starter | $15/mo | 1 | 100 | 400 |
 | Pro | $49/mo | 5 | 250 | 1,000 |
 | Scale | $179/mo | 20 | 1,000 | 5,000 |
 
-Overage on paid plans: $0.15 per call minute, $2/mo per extra number, $0.015 per text. Full details at [alohalabshq.com/dial#pricing](https://alohalabshq.com/dial/#pricing).
+Overage on paid plans: $0.15 per call minute, $2/mo per extra number, $0.015 per extra incoming text. Full details at [alohalabshq.com/dial#pricing](https://alohalabshq.com/dial/#pricing).
+
+## Not yet supported
+
+Sending text messages. Dial receives texts and verification codes and places AI voice calls; an agent that needs to reach someone can call them.
 
 ## Fair use
 
